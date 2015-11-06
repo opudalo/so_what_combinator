@@ -22,8 +22,11 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://news.ycombinator.com/*",
+        "https://news.ycombinator.com/*"
+      ],
+      "css": [
+        "styles/contentscript.css"
       ],
       "js": [
         "scripts/contentscript.js"
