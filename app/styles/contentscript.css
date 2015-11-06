@@ -1,3 +1,5 @@
-.title > a::after {
+.athing .title > a::after,
+.comhead .storyon > a::after {
   content: ". So what?";
 }
+
